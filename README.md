@@ -12,7 +12,7 @@ This repo mainly converts the body25 format in openpose, or body25 plus the key 
 
 Most of the repos in github are about h36 skeleton, thus I update the body25 one. This project can help guys who use openpose or body25 skeleton as a tool to do rough generation of bvh.
 
-Note: 3d keypoints converting into bvh can only achieve approximate pose similarity, but the relative position calculation can only calculate the Euler angle of the parent node. For human skeleton, relatively speaking, keypoints are unrealistic to convert to bvh exactly. It requires other prior knowledge to assist, and it will not be expanded here.
+Note: 3d keypoints converting into bvh can only achieve approximate pose similarity, but the relative position calculation can only calculate the Euler angle of the parent node. For human skeleton, relatively speaking, keypoints are unrealistic to convert to bvh exactly, such as the spin angle. It requires other prior knowledge to assist, and the detials will not be expanded here.
 
 
 
